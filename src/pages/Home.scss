@@ -1,5 +1,5 @@
 .home__wrapper {
-  height: 250vh;
+  height: 150vh;
   background-color: #e7e7e7;
   overflow: hidden;
   .home__sections {
@@ -7,11 +7,5 @@
     position: relative;
     top: 44px;
     margin-left: 54px;
-
-    //for hiding scrollbar
-    // &::-webkit-scrollbar {
-    //   display: none;
-    // }
-    //egane kodthal namml section class ullil kodtha allaa componentinum ee style apply aakum
   }
 }

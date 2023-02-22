@@ -55,7 +55,7 @@ const ProgressBars = () => {
                 </div>
               </div>
               <div className="progress-bar__bottom">
-                <ProgressBar className="progress" animated now={45} />;
+                <ProgressBar className="progress" animated now={45} />
               </div>
             </div>
           );
