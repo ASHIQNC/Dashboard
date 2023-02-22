@@ -1,0 +1,35 @@
+.graphWrapper {
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 28px;
+
+  display: flex;
+  position: relative;
+  width: 50vw;
+  height: 100p;
+  margin-top: 21px;
+  flex-direction: column;
+
+  .top__portion {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    .heading {
+      display: flex;
+      margin-top: 10px;
+      padding: 14px;
+    }
+    .sub__heading {
+      margin-right: 13px;
+      display: flex;
+      margin-top: 24px;
+      color: blue;
+    }
+    .profileContainer__dot {
+      margin-left: 131px;
+      color: blue;
+      margin-top: 11px;
+    }
+  }
+}

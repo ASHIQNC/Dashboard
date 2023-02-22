@@ -1,0 +1,56 @@
+.user-history__wrapper {
+  display: flex;
+  .user-history__container {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 28px;
+
+    display: flex;
+    position: relative;
+    width: 28vw;
+    height: 100p;
+    margin-top: 21px;
+    flex-direction: column;
+
+    .user-history__top__portion {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      height: 20%;
+      padding: 14px;
+      .user-history__heading {
+        display: flex;
+      }
+      .user-history__sub__heading {
+        margin-right: 13px;
+        display: flex;
+        color: blue;
+      }
+    }
+    .user-history__bottom {
+      display: flex;
+      margin-left: 10px;
+      padding: 4px;
+      .user-history__profileContainer {
+        display: flex;
+        .profile__img {
+          width: 37px;
+          height: 34px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .user-history__details {
+      margin-left: 4px;
+      font-size: 13px;
+      width: 100%;
+      display: flex;
+      color: lightgray;
+
+      h7 {
+        margin-right: 12px;
+        width: 42px;
+      }
+    }
+  }
+}

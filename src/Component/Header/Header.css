@@ -1,0 +1,97 @@
+* {
+  margin: 0px;
+}
+.navbar__container {
+  height: 60px;
+}
+
+.navbar__wraper {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex: 1;
+  /* for making vertically center use align item
+    for making horizontal make justifycontent center */
+  align-items: center;
+}
+
+.center {
+  display: flex;
+  margin-left: 150px;
+}
+.right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.language {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.search__container {
+  border: 0.5px solid lightgray;
+  border-radius: 20px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin-left: 25px;
+  background-color: white;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 18px;
+  padding: 5px;
+}
+h3 {
+  color: blue;
+}
+
+input {
+  border: none;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+.menu__item {
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  margin-left: 25px;
+  justify-content: space-between;
+  width: 41%;
+}
+
+.menu__item__button {
+  border-radius: 17px;
+  display: flex;
+  width: 119px;
+  justify-content: center;
+  background-color: white;
+  border: transparent;
+  border: 1px solid #0037ff;
+  height: 35px;
+  align-items: center;
+}
+
+.item__badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+  margin-right: 15px;
+  border-radius: 50%;
+  width: 33px;
+}

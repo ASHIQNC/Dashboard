@@ -1,0 +1,56 @@
+.transactionCard__wrapper {
+  display: flex;
+  // width: 24vw;
+  background-color: white;
+  border-radius: 20px;
+  margin-left: 10px;
+  width: 306px;
+  height: 100%;
+  padding: 10px;
+  margin-top: 20px;
+
+  .profileContainer__dot {
+    margin-left: 131px;
+    color: blue;
+    margin-top: 11px;
+  }
+
+  .header__section__wrapper {
+    display: flex;
+    .heading {
+      display: flex;
+      margin-top: 10px;
+      .down__arrow {
+        margin-top: 3px;
+      }
+    }
+  }
+  .chart__section {
+    height: 138px;
+    display: flex;
+    .left__section {
+      flex: 1;
+    }
+    .right__section {
+      flex: 1;
+      .percentage__wrapper {
+        display: flex;
+        flex-direction: column;
+        .percentage__desc {
+          font-size: 13px;
+          color: lightgray;
+        }
+        .percentage__balance {
+          font-weight: bold;
+          color: #6666f5;
+        }
+      }
+    }
+  }
+
+  .list__wrapper {
+    .list {
+      font-size: 12px;
+    }
+  }
+}

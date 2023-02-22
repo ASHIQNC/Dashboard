@@ -1,0 +1,130 @@
+.work {
+  display: flex;
+  .slider {
+    height: 154px;
+    display: flex;
+    .container {
+      //   width:100%
+      width: 24vw;
+      display: flex;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        border-radius: 20px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      // total 12 aan ath nammal left 4 and right 4 aaki split chythu
+      .left {
+        flex: 4;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 22px;
+
+        .leftContainer {
+          width: 90%;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          padding: 15px;
+
+          p {
+            overflow: hidden;
+            font-size: 10px;
+            color: gray;
+          }
+
+          .footer {
+            display: flex;
+            .footer__arrowup {
+              color: blue;
+              height: 20px;
+            }
+            span {
+              text-decoration: none;
+              font-size: 12px;
+              font-weight: bold;
+              margin-left: 10px;
+            }
+          }
+          h6 {
+            font-size: 20px;
+            font-weight: bold;
+          }
+          span {
+            font-weight: 600px;
+            font-size: 12px;
+            cursor: pointer;
+            text-decoration: underline;
+          }
+        }
+      }
+      .right {
+        flex: 8;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        margin-left: 70px;
+        flex-direction: column;
+        .right__content {
+          color: blue;
+          margin-bottom: 20px;
+        }
+        h6 {
+          display: flex;
+          font-size: 13px;
+          .right__arrow {
+            font-size: 20px;
+          }
+        }
+        h5 {
+          font-size: 12px;
+          margin-bottom: 17px;
+          font-weight: bold;
+        }
+      }
+
+      .line {
+        border: 1px solid lightgray;
+        width: 240px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .work {
+    .slider {
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+
+      .container {
+        .item {
+          width: 90%;
+          height: 180px;
+          margin: 5px 0px;
+        }
+        .left {
+          .leftContainer {
+            width: 100%;
+            height: 100%;
+            margin-left: 1;
+
+            h2 {
+              font-size: 15px;
+            }
+            p {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
